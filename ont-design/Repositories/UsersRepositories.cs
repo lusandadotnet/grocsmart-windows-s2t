@@ -11,7 +11,7 @@ namespace ont_design.Repository
 {
     public class UsersRepositories
     {
-        private readonly string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=GrocsmartDB;Integrated Security=True"
+        private readonly string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=GrocsmartDB;Integrated Security=True";
 
         public List<Users> GetAllUsers()
         {
@@ -191,3 +191,4 @@ namespace ont_design.Repository
 
     }
 }
+
